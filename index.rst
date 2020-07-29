@@ -22,6 +22,17 @@
 
 .. toctree::
    :maxdepth: 2
+   :caption: Objects Labs
+   :name: _objects_labs
+   :hidden:
+
+   objects_deploy/objects_deploy
+   objects_buckets_users/objects_buckets_users
+   objects_versioning_access_control/objects_versioning_access_control
+   objects_cli_scripts/objects_cli_scripts
+
+.. toctree::
+   :maxdepth: 2
    :caption: Bonus Labs
    :name: _bonus
    :hidden:
@@ -79,8 +90,16 @@ Agenda
     - Files: Create SMB Share
     - Files: Create NFS Export
     - Files: Selective File Blocking
+
+- Nutanix File Analytics Labs
     - File Analytics: Review Initial Scan
     - File Analytics: Anomaly Rules
+
+- Nutanix Objects Labs
+    - Objects: Deploy
+    - Objects: Creating Bukets & Users
+    - Objects: Versioning & Access Controls
+    - Objects: Using From CLI & Scripts
 
 - Bonus Labs
     - Peer
@@ -194,7 +213,7 @@ Each cluster has a dedicated domain controller VM, **DC**, responsible for provi
 .. list-table::
    :widths: 25 35 40
    :header-rows: 1
-   
+
    * - Group
      - Username(s)
      - Password
