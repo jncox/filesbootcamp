@@ -22,17 +22,6 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Objects Labs
-   :name: _objects_labs
-   :hidden:
-
-   objects_deploy/objects_deploy
-   objects_buckets_users/objects_buckets_users
-   objects_versioning_access_control/objects_versioning_access_control
-   objects_cli_scripts/objects_cli_scripts
-
-.. toctree::
-   :maxdepth: 2
    :caption: Bonus Labs
    :name: _bonus
    :hidden:
@@ -77,9 +66,10 @@ What's New
 ++++++++++
 
 - Workshop updated for the following software versions:
-    - AOS & PC 5.11.2.x
-    - Files 3.6.1.2
-    - File Analytics 2.1.0
+    - AOS 5.15.x | 5.16.x | 5.17.x | 5.18.x
+    - Prism 2020.8
+    - Files 3.7
+    - File Analytics 2.2
 
 - Optional Lab Updates:
 
@@ -94,12 +84,6 @@ Agenda
 - Nutanix File Analytics Labs
     - File Analytics: Review Initial Scan
     - File Analytics: Anomaly Rules
-
-- Nutanix Objects Labs
-    - Objects: Deploy
-    - Objects: Creating Bukets & Users
-    - Objects: Versioning & Access Controls
-    - Objects: Using From CLI & Scripts
 
 - Bonus Labs
     - Peer
